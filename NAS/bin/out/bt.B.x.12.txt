@@ -1,0 +1,201 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200       dt:   0.0003000
+ Number of available threads:    12
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.4233597229287E+03 1.4233597229287E+03 1.2300315041306E-14
+           2 9.9330522590150E+01 9.9330522590150E+01 2.4321278481061E-15
+           3 3.5646025644536E+02 3.5646025644535E+02 1.1481577774732E-14
+           4 3.2485447959084E+02 3.2485447959084E+02 1.0148908206774E-14
+           5 3.2707541254660E+03 3.2707541254659E+03 6.3955825899317E-15
+ Comparison of RMS-norms of solution error
+           1 5.2969847140937E+01 5.2969847140937E+01 3.3535245715811E-15
+           2 4.4632896115670E+00 4.4632896115671E+00 8.9548365364695E-15
+           3 1.3122573342210E+01 1.3122573342210E+01 9.2049220781015E-15
+           4 1.2006925323559E+01 1.2006925323559E+01 1.2427325938044E-14
+           5 1.2459576151036E+02 1.2459576151036E+02 1.1975846746377E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    31.19
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                 22512.42
+ Mop/s/thread    =                  1876.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              29 Oct 2023
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200       dt:   0.0003000
+ Number of available threads:    12
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.4233597229287E+03 1.4233597229287E+03 1.2300315041306E-14
+           2 9.9330522590150E+01 9.9330522590150E+01 2.4321278481061E-15
+           3 3.5646025644536E+02 3.5646025644535E+02 1.1641044132714E-14
+           4 3.2485447959084E+02 3.2485447959084E+02 1.0148908206774E-14
+           5 3.2707541254660E+03 3.2707541254659E+03 6.3955825899317E-15
+ Comparison of RMS-norms of solution error
+           1 5.2969847140937E+01 5.2969847140937E+01 3.3535245715811E-15
+           2 4.4632896115670E+00 4.4632896115671E+00 8.9548365364695E-15
+           3 1.3122573342210E+01 1.3122573342210E+01 9.2049220781015E-15
+           4 1.2006925323559E+01 1.2006925323559E+01 1.2427325938044E-14
+           5 1.2459576151036E+02 1.2459576151036E+02 1.1975846746377E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    31.20
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                 22508.33
+ Mop/s/thread    =                  1875.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              29 Oct 2023
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP-C) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200       dt:   0.0003000
+ Number of available threads:    12
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  1.0000000000000E-08
+ Comparison of RMS-norms of residual
+           1 1.4233597229287E+03 1.4233597229287E+03 1.2300315041306E-14
+           2 9.9330522590150E+01 9.9330522590150E+01 2.4321278481061E-15
+           3 3.5646025644536E+02 3.5646025644535E+02 1.1481577774732E-14
+           4 3.2485447959084E+02 3.2485447959084E+02 1.0148908206774E-14
+           5 3.2707541254660E+03 3.2707541254659E+03 6.3955825899317E-15
+ Comparison of RMS-norms of solution error
+           1 5.2969847140937E+01 5.2969847140937E+01 3.3535245715811E-15
+           2 4.4632896115670E+00 4.4632896115671E+00 8.9548365364695E-15
+           3 1.3122573342210E+01 1.3122573342210E+01 9.2049220781015E-15
+           4 1.2006925323559E+01 1.2006925323559E+01 1.2427325938044E-14
+           5 1.2459576151036E+02 1.2459576151036E+02 1.1975846746377E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                    31.19
+ Total threads   =                       12
+ Avail threads   =                       12
+ Mop/s total     =                 22511.06
+ Mop/s/thread    =                  1875.92
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              29 Oct 2023
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = -I../common
+    CFLAGS       = -g -Wall -O3 -fopenmp -mcmodel=large
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=large
+    RAND         = (none)
+
+--------------------------------------
+ Please send all errors/feedbacks to:
+ Center for Manycore Programming
+ cmp@aces.snu.ac.kr
+ http://aces.snu.ac.kr
+--------------------------------------
+

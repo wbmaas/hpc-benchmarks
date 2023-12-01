@@ -1,0 +1,18 @@
+IO        : 1.454356
+Compute   : 4.081932
+Timer Wall Time: 5.536291
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+IO        : 1.453218
+Compute   : 4.056844
+Timer Wall Time: 5.510064
+Pass
+Parboil parallel benchmark suite, version 0.2
+
+IO        : 1.451823
+Compute   : 4.087583
+Timer Wall Time: 5.539409
+Pass
+Parboil parallel benchmark suite, version 0.2
+
