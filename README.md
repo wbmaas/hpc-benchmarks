@@ -6,6 +6,7 @@
 sudo apt update &&
 sudo apt -y install make &&
 sudo apt -y install gcc &&
+sudo apt -y install mpich &&
 sudo apt -y install python2 &&
 sudo ln -s /usr/bin/python2 /usr/bin/python &&
 git clone https://github.com/wbmaas/benchmarks.git
