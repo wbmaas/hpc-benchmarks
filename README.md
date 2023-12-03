@@ -2,21 +2,29 @@
 
 ## Dependencies
 
+```shell
 sudo apt update
 sudo apt install make
 sudo apt install gcc
 sudo apt install python2
-whereis python2
 sudo ln -s /usr/bin/python2 /usr/bin/python
+git clone https://github.com/wbmaas/benchmarks.git
+```
 
 ## Run
 
-make
-#edit the execute.sh file by setting the number of cores
+```shell
+# For each benchmark navigate into it's folder
+cd FFT
+make clean && make
+# Edit the execute.sh file by setting the number of cores to execute on the for loop
 ./execute.sh
+```
 
 ## Save date
 
+```shell
 tar czvf intel-8-out.tar.gz FFT/out HPCG/out JA/out LULESH/out PO/out ST/out NAS/bin/out RODINIA/hotspot/out RODINIA/lud/out RODINIA/streamcluster/out parboil/out
-#exit vm and run 
-scp -J guest@xxx.xxx.xxx.x ubuntu@xxx.xx.xxx.xxx:/home/ubuntu/benchmarks/intel-<cores>-out.tar.gz /home/<username>/Documents
+# Exit the VM and run 
+scp -J guest@<guest-ip> ubuntu@<server-ip>:/home/ubuntu/benchmarks/intel-<cores>-out.tar.gz /home/<username>/Documents
+```
