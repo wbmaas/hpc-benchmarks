@@ -9,13 +9,13 @@ sudo apt -y install gcc &&
 sudo apt -y install mpich &&
 sudo apt -y install python2 &&
 sudo ln -s /usr/bin/python2 /usr/bin/python &&
-git clone https://github.com/wbmaas/benchmarks.git
+git clone https://github.com/wbmaas/hpc-benchmarks.git
 ```
 
 ## Run
 
 ```shell
-# For each benchmark navigate to it's folder
+# For each benchmark navigate to its folder
 cd FFT
 make clean && make
 # Edit the execute.sh file by setting the number of cores to execute on the for loop
