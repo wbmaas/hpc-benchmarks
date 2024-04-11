@@ -1,4 +1,6 @@
-# Benchmarks
+# HPC Benchmarks
+
+This repository holds a set of High Performance Computing benchmarks and instructions on executing them.
 
 ## Dependencies
 
@@ -22,7 +24,7 @@ make clean && make
 ./execute.sh
 ```
 
-## Save date
+## Save excetunio data
 
 ```shell
 tar czvf intel-8-out.tar.gz FFT/out HPCG/out JA/out LULESH/out PO/out ST/out NAS/bin/out RODINIA/hotspot/out RODINIA/lud/out RODINIA/streamcluster/out parboil/out
