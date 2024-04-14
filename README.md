@@ -5,13 +5,13 @@ This repository holds a set of High Performance Computing benchmarks and instruc
 ## Dependencies
 
 ```shell
+git clone https://github.com/wbmaas/hpc-benchmarks.git
 sudo apt update &&
 sudo apt -y install make &&
 sudo apt -y install gcc &&
 sudo apt -y install mpich &&
 sudo apt -y install python2 &&
 sudo ln -s /usr/bin/python2 /usr/bin/python &&
-git clone https://github.com/wbmaas/hpc-benchmarks.git
 ```
 
 ## Run
@@ -19,7 +19,8 @@ git clone https://github.com/wbmaas/hpc-benchmarks.git
 ```shell
 # For each benchmark navigate to its folder
 cd FFT
-make clean && make
+make clean
+make
 # Edit the execute.sh file by setting the number of cores to execute on the for loop
 ./execute.sh
 ```
