@@ -21,11 +21,11 @@ sudo ln -s /usr/bin/python2 /usr/bin/python &&
 cd FFT
 make clean
 make
-# Edit the execute.sh file by setting the number of cores to execute on the for loop
+# Edit the execute.sh with the desired number of cores
 ./execute.sh
 ```
 
-## Save excetunio data
+## Save execution data
 
 ```shell
 tar czvf intel-8-out.tar.gz FFT/out HPCG/out JA/out LULESH/out PO/out ST/out NAS/bin/out RODINIA/hotspot/out RODINIA/lud/out RODINIA/streamcluster/out parboil/out
