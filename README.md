@@ -21,6 +21,16 @@ sudo ln -s /usr/bin/python2 /usr/bin/python &&
 cd FFT
 make clean
 make
+
+# For the NAS benchmarks
+make BT CLASS=B
+make CG CLASS=B
+make FT CLASS=B
+make LU CLASS=B
+make MG CLASS=B
+make SP CLASS=B
+make UA CLASS=B
+
 # Edit the execute.sh with the desired number of cores
 ./execute.sh
 ```
