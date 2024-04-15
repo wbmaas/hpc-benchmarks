@@ -32,7 +32,7 @@ make SP CLASS=B
 make UA CLASS=B
 
 # Edit the execute.sh with the desired number of cores
-./execute.sh
+./execute.sh &
 ```
 
 ## Save execution data
