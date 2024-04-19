@@ -1,17 +1,17 @@
 # HPC Benchmarks
 
-This repository holds a set of High Performance Computing benchmarks and instructions on executing them.
+This repository holds a set of High Performance Computing (HPC) benchmarks and instructions on executing them.
 
 ## Dependencies
 
 ```shell
-git clone https://github.com/wbmaas/hpc-benchmarks.git
+git clone https://github.com/wbmaas/hpc-benchmarks.git &&
 sudo apt update &&
 sudo apt -y install make &&
 sudo apt -y install gcc &&
 sudo apt -y install mpich &&
 sudo apt -y install python2 &&
-sudo ln -s /usr/bin/python2 /usr/bin/python &&
+sudo ln -s /usr/bin/python2 /usr/bin/python
 ```
 
 ## Run
