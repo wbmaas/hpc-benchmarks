@@ -38,7 +38,8 @@ make UA CLASS=B
 ## Save execution data
 
 ```shell
-tar cfJ intel-8-out.tar.gz FFT/out HPCG/out JA/out LULESH/out PO/out ST/out NAS/bin/out RODINIA/hotspot/out RODINIA/lud/out RODINIA/streamcluster/out parboil/out
-# Exit the VM and run 
+# compress the results
+tar cfJ intel-32-out.tar.xz FFT/out HPCG/out JA/out LULESH/out PO/out ST/out NAS/bin/out RODINIA/hotspot/out RODINIA/lud/out RODINIA/streamcluster/out parboil/out
+# Copy files from VM
 scp ubuntu@<server-ip>:/home/ubuntu/hpc-benchmarks/<instance>-<cores>-out.tar.xz /home/<username>/Documents
 ```
