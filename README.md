@@ -14,6 +14,16 @@ sudo apt -y install python2 &&
 sudo ln -s /usr/bin/python2 /usr/bin/python
 ```
 
+### Install python2.7 on Ubuntu 23.04 as "python"
+```shell
+wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
+tar xzf Python-2.7.18.tgz
+cd Python-2.7.18
+sudo ./configure --enable-optimizations
+sudo make altinstall
+sudo ln -s "/usr/local/bin/python2.7" "/usr/bin/python"
+```
+
 ## Run
 
 ```shell
