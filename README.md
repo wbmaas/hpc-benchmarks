@@ -1,6 +1,6 @@
 # HPC Benchmarks
 
-This repository holds a set of High Performance Computing (HPC) benchmarks and instructions on executing them.
+This repository holds a set of High Performance Computing (HPC) benchmarks and the instructions to execute them.
 
 ## Dependencies
 
