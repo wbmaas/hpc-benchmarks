@@ -20,3 +20,4 @@ do
 		./parboil run lbm omp_cpu long >> out/lbm.$nt.txt
 	done
 done
+
