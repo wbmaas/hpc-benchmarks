@@ -12,4 +12,3 @@ do
 		./lulesh2.0 -i 5000 -s 50 >> out/lulesh.$nt.txt
 	done
 done
-
